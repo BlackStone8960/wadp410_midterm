@@ -80,16 +80,6 @@ header {
     padding-right: 15px;
 }
 
-.image-container {
-    position: absolute;
-    top: 0;
-    z-index: 0;
-}
-
-.image-container .topClothes {
-    z-index: 0;
-}
-
 .trandingClothes {
     
 }
@@ -102,7 +92,8 @@ header {
 }
 
 .trandingClothes .container-tranding .tranding1 {
-    background-color: yellow;
+    background-image: url(./img/tranding1.jpeg);
+    background-size: contain;
     padding: 200px 150px;
     margin-left: 50px;
     margin-right: 50px;

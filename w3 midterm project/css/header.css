@@ -1,0 +1,49 @@
+.headerBlock {
+    top: 30px;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0, .1);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    z-index: 100;
+}
+
+.headerBlock:hover {
+    background-color: rgba(0, 0, 0, .5);
+    transition: .5s;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+    z-index: 100;
+}
+
+.logo .logoLink {
+    text-decoration: none;
+}
+
+.navInHeader ul {
+    list-style: none;
+    text-align: center;
+}
+
+.headerBlock .navInHeader ul li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.headerBlock .navInHeader ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navInHeader-icon {
+    font-size: 25px;
+    float: right;
+    padding-right: 15px;
+}
