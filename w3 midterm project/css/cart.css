@@ -1,0 +1,55 @@
+.main-wrapper {
+  margin: 10px auto;
+  width: 1100px;  
+}
+.cart-contents {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.item-lists {
+  list-style: none;
+}
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+.item-list img {
+  width: 200px;
+}
+.item-calculation {
+  width: 360px;
+}
+.subtotal {
+  border: 1px solid #ccc;
+  width: 400px;
+  padding: 24px 20px;
+}
+.subtotal-title {
+  margin-bottom: 24px;
+}
+.subtotal-inline {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  margin-bottom: 10px;
+}
+.subtotal-inline--margin-bottom {
+  margin-bottom: 3px;
+}
+.subtotal-inline--last {
+  margin-bottom: 0;
+}
+.subtotal-bold {
+  font-weight: bold;
+}
+#quantity {
+  display: block;
+  width: 40px;
+}
+.quantity_cost {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
