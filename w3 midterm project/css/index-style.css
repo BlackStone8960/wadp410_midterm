@@ -14,15 +14,25 @@ body {
     margin: 5px 10px;
 }
 
-.header-container {
+header {
+    background-image: url(../img/clothes1.jpeg);
+    height: 1000px;
     position: relative;
 }
 
-header {
-    z-index: 100;
+.explanatnionForImage {
+    position: absolute;
+    padding-left: 630px;
+    padding-top: 400px;
+    font-size: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: italic;
 }
 
 .headerBlock {
+    top: 30px;
+    position: fixed;
+    width: 100%;
     background-color: rgb(0, 0, 0, .1);
     padding-top: 10px;
     padding-bottom: 50px;
@@ -32,10 +42,12 @@ header {
 
 .headerBlock:hover {
     background-color: rgba(0, 0, 0, .5);
+    transition: .5s;
 }
 
 .logo {
     margin-top: 10px;
+    margin-left: 10px;
     font-size: 20px;
     font-style: italic;
     z-index: 100;
@@ -50,10 +62,16 @@ header {
     text-align: center;
 }
 
-.navInHeader ul li {
+.headerBlock .navInHeader ul li {
     display: inline;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.headerBlock .navInHeader ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
 }
 
 .navInHeader-icon {
@@ -71,3 +89,36 @@ header {
 .image-container .topClothes {
     z-index: 0;
 }
+
+.trandingClothes {
+    
+}
+
+.trandingClothes .container-tranding {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.trandingClothes .container-tranding .tranding1 {
+    background-color: yellow;
+    padding: 200px 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.trandingClothes .container-tranding .tranding2 {
+    background-color:red;
+    padding: 200px 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.trandingClothes .container-tranding .tranding3 {
+    background-color:blue;
+    padding: 200px 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
