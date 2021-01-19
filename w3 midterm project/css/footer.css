@@ -3,14 +3,18 @@ footer {
   width: 100%;
   color: #fff;
   opacity: 1;
+  padding: 40px 80px 20px;
+  box-sizing: border-box;
 }
 .list-block {
-  margin-right: 40px;
+  margin-right: 100px;
 }
 .former-footer {
   display: flex;
   flex-flow: row;
+  justify-content: space-between;
   list-style: none;
+  margin-bottom: 50px;
 }
 .list-block li h1{
   font-size: 20px;
@@ -23,8 +27,11 @@ footer {
   display: flex;
   flex-flow: row;
 }
+.media-block h1 {
+  font-size: 20px;
+}
 .media-icon-lists img {
-  width: 40px;
+  width: 35px;
   display: inline-block;
   margin-right: 10px;
 }
@@ -32,6 +39,15 @@ footer {
   display: flex;
   flex-flow: row;
 }
+.language-option div {
+  padding-right: 10px;
+}
+.language-option div:last-of-type {
+  padding-left: 10px;
+}
 .language-option div:first-child {
   border-right: 1px solid #fff;
+}
+footer hr {
+  margin: 16px calc(50% - 50vw);
 }
