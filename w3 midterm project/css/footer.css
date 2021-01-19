@@ -1,0 +1,37 @@
+footer {
+  background-color: #333;
+  width: 100%;
+  color: #fff;
+  opacity: 1;
+}
+.list-block {
+  margin-right: 40px;
+}
+.former-footer {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+}
+.list-block li h1{
+  font-size: 20px;
+}
+.inside-block {
+  list-style: none;
+  font-size: 16px;
+}
+.media-icon-lists {
+  display: flex;
+  flex-flow: row;
+}
+.media-icon-lists img {
+  width: 40px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.language-option {
+  display: flex;
+  flex-flow: row;
+}
+.language-option div:first-child {
+  border-right: 1px solid #fff;
+}
