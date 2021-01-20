@@ -5,6 +5,12 @@ body {
     margin: 0;
 }
 
+header {
+    background-image: url(../img/clothes1.jpeg);
+    height: 1000px;
+    position: relative;
+}
+
 .aboveHeader {
     background-color: beige;
     width: 100%;
@@ -14,12 +20,6 @@ body {
 .aboveHeader .navAboveHeader {
     float: right;
     margin: 5px 10px;
-}
-
-header {
-    background-image: url(../img/clothes1.jpeg);
-    height: 1000px;
-    position: relative;
 }
 
 .explanationForImage p {

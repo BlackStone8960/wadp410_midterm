@@ -4,40 +4,206 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/index-style.css">
+  <link rel="stylesheet" href="css/cart.css">
+  <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
   <title>Cart page</title>
 </head>
 <body>
-  <header>
-    <div class="headerBlock">
-        <div class="logo">
-            <a href="#" class="logoLink"><i class="fas fa-user-secret"></i>xxxxx,Inc.</a>
-        </div>
-        <nav class="navInHeader">
-            <ul>
-                <li><a href="#">NEW</a></li>
-                <li><a href="#">SALE</a></li>
-                <li><a href="#">WOMEN</a></li>
-                <li><a href="#">MEN</a></li>
-                <li><a href="#">UNISEX</a></li>
-                <li><a href="#">KIDS</a></li>
-                <li><a href="#">ACCSESSORIES</a></li>
-            </ul>
-        </nav>
-        <nav class="navInHeader-icon">
-            <a href="#"><i class="far fa-user"></i></a>
-            <a href="#"><i class="far fa-heart"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
-        </nav>
+  <div class="aboveHeader">
+    <nav class="navAboveHeader">
+        <a href="#">Contact Us</a>
+        <label for="language">Language:</label>
+        <select name="language" id="chooseLang">
+            <option value="english">English</option>
+            <option value="frenh">Français</option>
+        </select>
+    </nav>
+  </div>
+  <header class="headerBlock">
+    <div class="logo">
+        <a href="#" class="logoLink"><i class="fas fa-user-secret"></i>xxxxx,Inc.</a>
     </div>
+    <nav class="navInHeader">
+        <ul>
+            <li><a href="#">NEW</a></li>
+            <li><a href="#">SALE</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">UNISEX</a></li>
+            <li><a href="#">KIDS</a></li>
+            <li><a href="#">ACCSESSORIES</a></li>
+        </ul>
+    </nav>
+    <nav class="navInHeader-icon">
+        <a href="#"><i class="far fa-user"></i></a>
+        <a href="#"><i class="far fa-heart"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+    </nav>
   </header>
 
   <!-- Main content -->
   <section class="main-wrapper">
+    <h1 class="main-title">SHOPPING CART</h1>
+    <div class="cart-contents">
+      <ul class="item-lists">
+        <li class="item-list item-list--first">
+          <img src="img/cart-img_1.jpg" alt="cart-item_1">
+          <div class="item-calculation">
+            <h3>MERCHANDISE 1</h3>
+            <div>Colour: Black</div>
+            <div>Size: Men M</div>
+            <div>CAD $ 39.90</div>
+            <div>QUANTITY</div>
+            <div class="quantity_cost">
+              <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <span>SUBTOTAL CAD $ 39.90</span>
+            </div>
+            <div class="remove-button">×</div>
+          </div>
+        </li>
+        <li class="item-list">
+          <img src="img/cart-img_2.jpg" alt="cart-item_2">
+          <div class="item-calculation">
+            <h3>MERCHANDISE 2</h3>
+            <div>Colour: Black</div>
+            <div>Size: Men M</div>
+            <div>CAD $ 12.90</div>
+            <div>QUANTITY</div>
+            <div class="quantity_cost">
+              <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <span>SUBTOTAL CAD $ 12.90</span>
+            </div>
+            <div class="remove-button">×</div>
+          </div>
+        </li>
+        <li class="item-list">
+          <img src="img/cart-img_3.jpg" alt="cart-item_3">
+          <div class="item-calculation">
+            <h3>MERCHANDISE 3</h3>
+            <div>Colour: Black</div>
+            <div>Size: Men M</div>
+            <div>CAD $ 12.90</div>
+            <div>QUANTITY</div>
+            <div class="quantity_cost">
+              <select name="quantity" id="quantity">
+                <option value="1">1</option>
+                <option value="1">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+              <span>SUBTOTAL CAD $ 12.90</span>
+            </div>
+            <div class="remove-button">×</div>
+          </div>
+        </li>
+      </ul>
+      <div>
+        <div class="subtotal">
+          <h3 class="subtotal-title">ORDER SUMMERY</h3>
+          <div class="subtotal-inline">
+            <span>Item(s) subtotal</span>
+            <span>CAD $ 102.70</span>
+          </div>
+          <div class="subtotal-inline subtotal-inline--margin-bottom subtotal-bold">
+            <span><b>SUBTOTAL</b></span>
+            <span>CAD $ 102.70</span>
+          </div>
+          <div class="subtotal-inline">
+            <span>Item(s) subtotal</span>
+            <span>CAD $ 102.70</span>
+          </div>
+          <div class="subtotal-inline subtotal-inline--last subtotal-bold">
+            <span>ORDER TOTAL</span>
+            <span>CAD $ 102.70</span>
+          </div>
+        </div>
+        <div class="purchase-button"><a href="#">CHECK OUT</a></div>
+        <div class="purchase-button whitening"><a href="#">CONTINUE SHOPPING</a></div>
+      </div>
+    </div>
+    <div class="recently-viewed">
+      <h1>RECENTLY VIEWED</h1>
+      <ul class="viewed-list">
+        <li class="viewed-merchandise">
+          <img src="img/cart-img_3.jpg" alt="viewed-merchandise-1">
+          <div class="color-wrapper">
+            <div class="color-tip" id="beige"></div>
+            <div class="color-tip" id="gray"></div>
+            <div class="color-tip" id="dark-gray"></div>
+            <div class="color-tip" id="black"></div>
+            <div class="color-tip" id="red"></div>
+            <div class="color-tip" id="brown"></div>
+            <div class="color-tip" id="navy"></div>
+            <span>+</span>
+          </div>
+          <div>MERCHANDISE 1</div>
+          <div>CAD $ 39.90</div>
+          <ul class="rating">
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <span class="rating__number">(5)</span>
+          </ul>
+        </li>
+        <li class="viewed-merchandise">
+          <img src="img/cart-img_2.jpg" alt="viewed-merchandise-2">
+          <div class="color-wrapper">
+            <div class="color-tip" id="beige"></div>
+            <div class="color-tip" id="gray"></div>
+            <div class="color-tip" id="dark-gray"></div>
+            <div class="color-tip" id="black"></div>
+            <div class="color-tip" id="red"></div>
+            <div class="color-tip" id="brown"></div>
+            <div class="color-tip" id="navy"></div>
+            <span>+</span>
+          </div>
+          <div>MERCHANDISE 2</div>
+          <div>CAD $ 49.90</div>
+          <ul class="rating">
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <li class="rating__star"><img src="img/240px-Gold_Star.svg.png" alt="rating-star"></li>
+            <span class="rating__number">(10)</span>
+          </ul>
+        </li>
 
+      </ul>
+    </div>
   </section>
-  
+
   <footer>
     <ul class="former-footer">
       <li class="list-block">
@@ -78,8 +244,8 @@
         <h1>Social Account</h1>
         <div class="media-icon-lists">
           <a href="#"><img src="img/Twitter_icon.png" alt="Twitter_icon"></a>
-          <img src="img/facebook_icon.png" alt="facebook_icon">
-          <img src="img/Instagram_icon.png" alt="Instagram_icon">
+          <a href="#"><img src="img/facebook_icon.png" alt="facebook_icon"></a>
+          <a href="#"><img src="img/Instagram_icon.png" alt="Instagram_icon"></a>
           <!-- <img src="" alt=""> -->
         </div>
       </li>

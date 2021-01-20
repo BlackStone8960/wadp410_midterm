@@ -9,21 +9,6 @@
     margin: 5px 10px;
 }
 
-header {
-    background-image: url(../img/clothes1.jpeg);
-    height: 1000px;
-    position: relative;
-}
-
-.explanationForImage p {
-    position: absolute;
-    left: 630px;
-    top: 400px;
-    font-size: 50px;
-    font-family: 'Nanum Myeongjo', serif;
-    font-style: italic;
-}
-
 .headerBlock {
     top: 0px;
     position: sticky;
