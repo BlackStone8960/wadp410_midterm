@@ -23,13 +23,23 @@ header {
     margin: 5px 10px;
 }
 
-.explanationForImage p {
+.explanationForImage h1 {
     position: absolute;
     left: 630px;
     top: 400px;
     font-size: 50px;
     font-family: 'Nanum Myeongjo', serif;
     font-style: italic;
+}
+
+.explanationForImage h2 {
+    position: absolute;
+    left: 630px;
+    top: 470px;
+    font-size: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+    font-style: italic;
+    color: #1a1a1a;
 }
 
 .headerBlock {
@@ -79,9 +89,43 @@ header {
 }
 
 .navInHeader-icon {
-    font-size: 25px;
-    float: right;
-    padding-right: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navInHeader-icon .iconAndSearch {
+  font-size: 25px;
+  padding-right: 15px;
+  padding-top: 20px;
+  position: relative;
+}
+
+.navInHeader-icon .iconAndSearch .search-input {
+    padding: 7px 7px;
+    background-color: rgba(0, 0, 0, .2);
+    border: 2px solid white;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+}
+
+.navInHeader-icon .iconAndSearch .search-input::placeholder {
+    color: rgba(255, 255, 255, .7);
+}
+
+.navInHeader-icon .iconAndSearch .search-button {
+    position: absolute;
+    left: 150px;
+    top: 25px;
+    padding: 7px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+    color: rgba(255, 255, 255, .9);
+}
+
+.navInHeader-icon .iconAndSearch .search-button i {
+    text-decoration: none;
 }
 
 .navInHeader-icon a {
@@ -93,74 +137,79 @@ header {
     margin: 0 auto;
 }
 
-.trandingClothes h1 {
+.trendingClothes h3 {
     padding-top: 200px;
     margin-bottom: 0px;
     text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 45px;
 }
 
-.trandingClothes .container-tranding {
+.trendingClothes .container-trending {
     position: relative;
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
-.trandingClothes .container-tranding .tranding1 {
+.trendingClothes .container-trending .trending1 {
     background-image: url(../img/tranding1.jpeg);
     background-size: cover;
     border-radius: 5%;
-    height: 500px;
+    height: 400px;
     width: 30%;
     padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     color: rgba(0, 0, 0, 0);
+    text-decoration: none;
     position: relative;
     cursor: pointer;
 }
 
-.trandingClothes .container-tranding .tranding1:hover {
+.trendingClothes .container-trending .trending1:hover {
     transition: ease-in .3s;
     color: rgba(0, 0, 0, .7);
     transform: scale(1.1);
 }
 
-.trandingClothes .container-tranding .tranding2 {
+.trendingClothes .container-trending .trending2 {
     background-image: url(../img/tranding2.jpeg);
     background-size: cover;
     border-radius: 5%;
-    height: 500px;
+    height: 400px;
     width: 30%;
     padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     color: rgba(0, 0, 0, 0);
+    text-decoration: none;
     position: relative;
     cursor: pointer;
 }
 
-.trandingClothes .container-tranding .tranding2:hover {
+.trendingClothes .container-trending .trending2:hover {
     transition: ease-in .3s;
     color: rgba(0, 0, 0, .7);
     transform: scale(1.1);
 }
 
-.trandingClothes .container-tranding .tranding3 {
+.trendingClothes .container-trending .trending3 {
     background-image: url(../img/tranding3.jpeg);
     background-size: cover;
     border-radius: 5%;
-    height: 500px;
+    height: 400px;
     width: 30%;
     padding: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
     color: rgba(0, 0, 0, 0);
+    text-decoration: none;
     position: relative;
     cursor: pointer;
 }
 
-.trandingClothes .container-tranding .tranding3:hover {
+.trendingClothes .container-trending .trending3:hover {
     transition: ease-in .3s;
     color: rgba(255, 255, 255, .9);
     transform: scale(1.1);
@@ -170,7 +219,7 @@ header {
     background-image: url(../img/dress1.jpeg);
     background-size: cover;
     border-radius: 30px;
-    margin: 100px 50px 70px 50px;
+    margin: 100px 30px 70px 30px;
     padding-bottom: 550px;
     position: relative;
     display: flex;
@@ -207,7 +256,11 @@ header {
     outline: none;
     background-color: rgba(0, 255, 200, .5);
     cursor: pointer;
-    box-shadow: ;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.newItem .container-newItem .description button:active {
+    box-shadow: 0 0 2px gray;
 }
 
 
