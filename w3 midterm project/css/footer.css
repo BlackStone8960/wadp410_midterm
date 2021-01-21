@@ -1,4 +1,7 @@
-
+/*  
+  Author of this file : Taichi Ishiguro 
+  Collaborator : Miyabi Tanimichi (who makes other files)
+ */
 
 footer {
   background-color: #333;
@@ -10,6 +13,10 @@ footer {
 }
 .list-block {
   margin-right: 100px;
+}
+.list-block a {
+  color: #fff;
+  text-decoration: none;
 }
 .former-footer {
   display: flex;
@@ -53,4 +60,7 @@ footer {
 }
 footer hr {
   margin: 16px calc(50% - 50vw);
+}
+.inside-block__title {
+  margin-bottom:10px;
 }

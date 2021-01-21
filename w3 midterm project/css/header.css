@@ -19,7 +19,6 @@
     z-index: 100;
 }
 
-
 .headerBlock:hover {
     background-color: rgba(0, 0, 0, .7);
     transition: .5s;
