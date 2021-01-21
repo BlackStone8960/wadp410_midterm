@@ -29,7 +29,7 @@
     margin-left: 60px;
 }
 
-.container-item .container-image .anglePhoto .angle1 {
+.anglePhoto .angle1 {
     border: 1px solid #262626;
     border-radius: 5px;
     margin: 10px;
@@ -38,9 +38,10 @@
     background-size: cover;
     font-size: 15px;
     color: white;
+    cursor: pointer;
 }
 
-.container-item .container-image .anglePhoto .angle2 {
+.anglePhoto .angle2 {
     border: 1px solid #262626;
     border-radius: 5px;
     margin: 10px;
@@ -49,9 +50,10 @@
     background-size: cover;
     font-size: 15px;
     color: white;
+    cursor: pointer;
 }
 
-.container-item .container-image .anglePhoto .angle3 {
+.anglePhoto .angle3 {
     border: 1px solid #262626;
     border-radius: 5px;
     margin: 10px;
@@ -60,9 +62,10 @@
     background-size: cover;
     font-size: 15px;
     color: white;
+    cursor: pointer;
 }
 
-.container-item .container-image .anglePhoto .angle4 {
+.anglePhoto .angle4 {
     border: 1px solid #262626;
     border-radius: 5px;
     margin: 10px;
@@ -71,6 +74,7 @@
     background-size: cover;
     font-size: 15px;
     color: white;
+    cursor: pointer;
 }
 
 .container-item .container-image .imageAndColor .mainImage {

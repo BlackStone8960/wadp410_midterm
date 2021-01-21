@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/item.css">
     <link rel="stylesheet" href="css/common.css">
 
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+
     <title>Ultra Confortable and Warm Sweater</title>
 </head>
 <body>
@@ -36,9 +38,19 @@
                 </ul>
             </nav>
             <nav class="navInHeader-icon">
-                <a href="#"><i class="far fa-user"></i></a>
-                <a href="#"><i class="far fa-heart"></i></a>
-                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <form class="iconAndSearch">
+                    <input class="search-input" type="search" placeholder="Search items">
+                    <button class="search-button"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="iconAndSearch">
+                    <a href="#"><i class="far fa-user"></i></a>
+                </div>
+                <div class="iconAndSearch">
+                    <a href="#"><i class="far fa-heart"></i></a>
+                </div>
+                <div class="iconAndSearch">
+                    <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                </div> 
             </nav>
         </div>
     </header>
@@ -109,12 +121,13 @@
                         <option value="6">6</option>
                     </select>
                 </div>
-                <button type="submit" class="addToCart">Add to Cart</button>
+                <button type="submit" class="addToCart">Add to Cart</button><br/>
                 <button type="button" class="fovourite">Favourite</button>
             </div>
         </div>
     </div>
     <p>People who checked the sweater also checked:</p>
+
     <footer>
         <ul class="former-footer">
           <li class="list-block">
