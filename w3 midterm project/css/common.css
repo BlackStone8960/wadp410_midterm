@@ -23,6 +23,16 @@ time, mark, audio, video {
     /* background:transparent; */
 }
 
+/* ====================== navigation ====================== */
+.navigation nav a {
+  color: #4d4d4d;
+}
+  
+.navigation nav a:visited {
+  color: #262626;
+}
+
+
 /* ====================== Recently Viewed ====================== */
 
 .recently-viewed {
