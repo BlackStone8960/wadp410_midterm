@@ -1,0 +1,150 @@
+@import 'header.css';
+@import 'footer.css';
+
+.mainContent {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.navigation nav {
+    color:  #262626;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+
+.container-item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-image {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.container-item .container-image .anglePhoto { 
+    float: left;
+    margin-left: 60px;
+}
+
+.container-item .container-image .anglePhoto .angle1 {
+    border: 1px solid #262626;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 40px;
+    background-image: url(../img/tranding3.jpeg);
+    background-size: cover;
+    font-size: 15px;
+    color: white;
+}
+
+.container-item .container-image .anglePhoto .angle2 {
+    border: 1px solid #262626;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 40px;
+    background-image: url(../img/tranding3.jpeg);
+    background-size: cover;
+    font-size: 15px;
+    color: white;
+}
+
+.container-item .container-image .anglePhoto .angle3 {
+    border: 1px solid #262626;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 40px;
+    background-image: url(../img/tranding3.jpeg);
+    background-size: cover;
+    font-size: 15px;
+    color: white;
+}
+
+.container-item .container-image .anglePhoto .angle4 {
+    border: 1px solid #262626;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 40px;
+    background-image: url(../img/tranding3.jpeg);
+    background-size: cover;
+    font-size: 15px;
+    color: white;
+}
+
+.container-item .container-image .imageAndColor .mainImage {
+    background-image: url(../img/tranding3.jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    left: 230px;
+    top: 50px;
+    width: 400px;
+    height: 570px;
+}
+
+/* .container-item .container-image .imageAndColor {
+
+} */
+
+.container-item .container-image .imageAndColor .colorVariation {
+    display: flex;
+    margin-top: 10px;
+}
+
+.colorVariation .color1 {
+    padding: 15px;
+    border: 1px solid #262626;
+    border-radius: 50%;
+    background-color: white;
+    margin-right: 7px;
+}
+
+.colorVariation .color2 {
+    padding: 15px;
+    border: 1px solid #262626;
+    border-radius: 50%;
+    background-color: beige;
+    margin-right: 7px;
+}
+
+.colorVariation .color3 {
+    padding: 15px;
+    border: 1px solid #262626;
+    border-radius: 50%;
+    background-color: gray;
+    margin-right: 7px;
+}
+
+.colorVariation .color4 {
+    padding: 15px;
+    border: 1px solid #262626;
+    border-radius: 50%;
+    background-color: navy;
+    margin-right: 7px;
+}
+
+.colorVariation .color5 {
+    padding: 15px;
+    border: 1px solid #262626;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 7px;
+}
+
+.container-descri {
+    margin-left: 100px;
+}
+
+.container-descri h1 span {
+    background-color: tomato;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.container-descri p {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}

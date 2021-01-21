@@ -1,3 +1,4 @@
+@import 'common.css';
 @import 'footer.css';
 
 body {
@@ -87,6 +88,11 @@ header {
     color: white;
 }
 
+.mainContent {
+    width: 1100px;
+    margin: 0 auto;
+}
+
 .trandingClothes h1 {
     padding-top: 200px;
     margin-bottom: 0px;
@@ -105,7 +111,8 @@ header {
     background-size: cover;
     border-radius: 5%;
     height: 500px;
-    padding: 20px 130px;
+    width: 30%;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     color: rgba(0, 0, 0, 0);
@@ -124,7 +131,8 @@ header {
     background-size: cover;
     border-radius: 5%;
     height: 500px;
-    padding: 20px 130px;
+    width: 30%;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     color: rgba(0, 0, 0, 0);
@@ -143,7 +151,8 @@ header {
     background-size: cover;
     border-radius: 5%;
     height: 500px;
-    padding: 20px 130px;
+    width: 30%;
+    padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
     color: rgba(0, 0, 0, 0);
@@ -153,7 +162,7 @@ header {
 
 .trandingClothes .container-tranding .tranding3:hover {
     transition: ease-in .3s;
-    color: rgba(0, 0, 0, .7);
+    color: rgba(255, 255, 255, .9);
     transform: scale(1.1);
 }
 
@@ -161,7 +170,7 @@ header {
     background-image: url(../img/dress1.jpeg);
     background-size: cover;
     border-radius: 30px;
-    margin: 100px 50px 30px 50px;
+    margin: 100px 50px 70px 50px;
     padding-bottom: 550px;
     position: relative;
     display: flex;
@@ -197,6 +206,8 @@ header {
     border-radius: 5px;
     outline: none;
     background-color: rgba(0, 255, 200, .5);
+    cursor: pointer;
+    box-shadow: ;
 }
 
 
