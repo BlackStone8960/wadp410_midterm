@@ -1,9 +1,19 @@
+/*  
+  Author of this file : Taichi Ishiguro 
+  Collaborator : Miyabi Tanimichi (who makes other files)
+ */
+
 .main-wrapper {
   margin: 10px auto;
   width: 1100px;  
 }
 .main-title {
   margin: 20px 0;
+}
+.navigation nav {
+  color: #262626;
+  margin-top: 20px;
+  margin-bottom: 90px;
 }
 .cart-contents {
   display: flex;
@@ -21,21 +31,37 @@
   padding-bottom: 28px;
   border-bottom: 1px solid #dadada;
   margin: 28px 0;
+  align-items: flex-start;
 }
 .item-list--first {
   margin-top: 0;
 }
 .item-list img {
   width: 180px;
+  height: 180px;
+  border-radius: 15px;
+}
+.image-link {
+  display: block;
+  height: 180px;
+}
+.text-link {
+  color: #000;
+  text-decoration: none;
 }
 .item-calculation {
   width: 450px;
   position: relative;
 }
+.item-list__title {
+  font-size: 20px;
+  font-weight: bold;
+}
 .remove-button {
   position: absolute;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 .subtotal {
   border: 1px solid #ccc;
@@ -98,7 +124,6 @@
   display: flex;
   flex-flow: row;
   justify-content: left;
-  /* align-items: baseline; */
 }
 .color-wrapper span {
   display: block;
@@ -143,14 +168,17 @@
 }
 .viewed-merchandise img {
   width: 220px;
+  border-radius: 15px;
 }
-/* .rating {
-  display: flex;
-  flex-flow: row;
-} */
+.viewed-marchandise__name {
+  margin: 6px 0 28px;
+}
+.viewed-marchandise__cost {
+  font-weight: bold;
+  font-size: 18px;
+}
 .rating__star {
   display: inline-block;
-  /* margin-right: 2px; */
 }
 .rating__star img {
   width: 12px;
