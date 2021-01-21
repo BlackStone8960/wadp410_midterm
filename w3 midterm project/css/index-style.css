@@ -136,11 +136,11 @@ header {
     font-size: 16px;
 }
 
-.navInHeader-icon .iconAndSearch .search-input::placeholder {
+.iconAndSearch .search-input::placeholder {
     color: rgba(255, 255, 255, .7);
 }
 
-.navInHeader-icon .iconAndSearch .search-button {
+.iconAndSearch .search-button {
     position: absolute;
     left: 150px;
     top: 25px;
