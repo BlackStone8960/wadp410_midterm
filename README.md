@@ -1,7 +1,7 @@
 # wadp410_midterm
 
 # Author
-Miyabi Tanimichi
+Miyabi Tanimichi<br>
 Taichi Ishiguro
 
 # Role in the project
@@ -16,7 +16,7 @@ Miyabi Tanimichi coded following files.
 * header.css
 * common.css
 
-She was in charge of main page, item page, new collection page, header part of our projects.
+She was in charge of main page, item page, new collection page, header part of our projects.<br>
 
 Taichi Ishiguro coded following files.
 
