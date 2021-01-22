@@ -24,6 +24,13 @@ time, mark, audio, video {
 }
 
 /* ====================== navigation ====================== */
+.navigation nav {
+  color:  #262626;
+  margin-top: 20px;
+  margin-left: 70px;
+  margin-bottom: 90px;
+}
+
 .navigation nav a {
   color: #4d4d4d;
 }
