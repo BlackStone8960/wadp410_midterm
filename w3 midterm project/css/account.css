@@ -2,7 +2,9 @@
   Author of this file : Taichi Ishiguro 
   Collaborator : Miyabi Tanimichi (who makes other files)
  */
-
+.navigation nav {
+  margin-left: 0 !important;
+}
 .label-wrapper {
   width: 200px;
   text-align: right;
