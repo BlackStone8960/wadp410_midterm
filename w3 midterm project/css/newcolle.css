@@ -1,3 +1,8 @@
+/*  
+  Author of this file : Miyabi Tanimichi 
+  Collaborator : Taichi Ishiguro (who makes other files)
+ */
+
 @import 'common.css';
 @import 'header.css';
 @import 'footer.css';
@@ -23,14 +28,14 @@ h2 {
 }
 
 .newColle1 {
-    display: flex;
+    display: flex;                  /* display flex*/
     justify-content: center;
     padding-bottom: 30px;
     border-bottom: 1px dotted #292929;
 }
 
 .newColle1 .newColleImg1 {
-    background-image: url(../img/newcolle1.jpeg);
+    background-image: url(../img/newcolle1.jpeg);   /* background-image n size */
     background-size: cover;
     height: 300px;
     width: 1000px;
@@ -67,6 +72,7 @@ h2 {
     padding-bottom: 30px;
     border-bottom: 1px dotted #292929;
     margin-top: 30px;
+    margin-bottom: 150px;
 }
 
 .newColle3 .newColleImg3 {
@@ -82,5 +88,5 @@ h2 {
 }
 
 p {
-    text-align: justify;
+    text-align: justify;                         /*justify*/
 }

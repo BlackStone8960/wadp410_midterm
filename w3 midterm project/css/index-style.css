@@ -1,3 +1,8 @@
+/*  
+  Author of this file : Miyabi Tanimichi 
+  Collaborator : Taichi Ishiguro (who makes other files)
+ */
+
 @import 'common.css';
 @import 'footer.css';
 
@@ -9,7 +14,7 @@ body {
 header {
     background-image: url(../img/clothes1.jpeg);
     height: 1000px;
-    position: relative;
+    position: relative;                 /* for top text relative */
 }
 
 .aboveHeader {
@@ -29,14 +34,14 @@ header {
 
 .explanationForImage {
     flex-direction: column;
-    position: absolute;
+    position: absolute;                 /* for top text absolute */
     left: 630px;
     top: 470px
 }
 
 .explanationForImage h1 {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-family: 'Nanum Myeongjo', serif;
     font-style: italic;
 }
@@ -48,7 +53,7 @@ header {
     color: #1a1a1a;
 }
 
-.headerBlock {
+.headerBlock {                                 /* header part↓　*/
     top: 0px;
     position: sticky;
     width: 100%;
@@ -62,7 +67,7 @@ header {
 .headerBlock:hover {
     background-color: rgba(0, 0, 0, .5);
     transition: .5s;
-}
+}                                             /* header part↑　*/
 
 .logo {
     margin-top: 25px;
@@ -88,7 +93,7 @@ header {
     padding-right: 10px;
 }
 
-.headerBlock .navInHeader ul li a {
+.headerBlock .navInHeader ul li a {            /* header list animation↓　*/
     text-decoration: none;
     color: white;
     font-size: 18px;
@@ -109,7 +114,7 @@ header {
 }
 
 .navInHeader ul li a:hover {
-    color: #95a5a6;
+    color: #95a5a6;                         /* header list animation↑　*/
 }
 
 .navInHeader ul li a:hover::after {
