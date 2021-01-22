@@ -8,6 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/account.css">
   <link rel="stylesheet" href="css/aboutus.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -61,38 +62,83 @@
   <!-- Main content -->
   <section class="main-wrapper">
     <div class="navigation">
-      <nav><a href="index.html">Main Page </a> > <b>About us</b></nav>
+      <nav><a href="index.html">Main Page </a> > <b>Account</b></nav>
     </div>
-    <h1 class="main-title">ABOUT US</h1>
-    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas veritatis.</span>
+    <h1 class="main-title">ACCOUNT</h1>
     <div class="main-contents">
       <div class="main-left-side">
-        <a class="bannar" id="bannar-1" href="#">
-          <div class="bannar-content bg-zoom-content">
-            <span>CORPORATE INFORMATION</span>
+        <form action="#">
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="first-name">First Name</label>
+            </div>
+            <input type="text" id="first-name" name="first-name" value="Cloud" required>  
           </div>
-        </a>
-        <a class="bannar" id="bannar-2" href="#">
-          <div class="bannar-content bg-zoom-content">
-            <span>BUSINESS OVERVIEW</span>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="last-name">Last Name</label>
+            </div>
+            <input type="text" id="last-name" name="last-name" value="Strife" required>  
           </div>
-        </a>
-        <a class="bannar" id="bannar-3" href="#">
-          <div class="bannar-content bg-zoom-content">
-            <span>MANAGEMENT POLICY</span>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="gender">Gender</label>
+            </div>
+            <div class="radio-wrapper">
+              <input type="radio" id="gender" name="gender" value="male" checked><span>Male</span>
+              <input type="radio" id="gender" name="gender" value="female"><span>Female</span> 
+              <input type="radio" id="gender" name="gender" value="other"><span>Other</span>
+            </div>
           </div>
-        </a>
-        <a class="bannar" id="bannar-4" href="#">
-          <div class="bannar-content bg-zoom-content">
-            <span>IR INFORMATION</span>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="Email">Email</label>
+            </div>
+            <input type="email" id="Email" name="Email" value="chocobo-lover@shinra.com" required>  
           </div>
-        </a>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="password">Password</label>
+            </div>
+            <button class="change-password">Change Password</button>
+          </div>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="postal-code">Postal Code</label>
+            </div>
+            <input type="text" id="postal-code" name="postal-code" value="V42-N72" required>  
+          </div>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="birthday">Birthday</label>
+            </div>
+            <input type="text" id="birthday" name="birthday" value="11-8-1992" required>
+          </div>
+          <div class="form-one-block">
+            <div class="label-wrapper">
+              <label for="postal-code">Postal Code</label>
+            </div>
+            <input type="text" id="postal-code" name="postal-code" value="V3Q-5K8" required>  
+          </div>
+          <div class="barcode-block">
+            <div class="label-wrapper">
+              <span>Membership Barcode</span>
+            </div>
+            <figure>
+              <img src="img/barcode_sample.jpg" alt="barcode" id="barcode">
+              <figcaption>Please show your membership barcode at the cashier when you purchase items.</figcaption>
+            </figure>
+          </div>
+          <input type="submit" value="Save" id="submit-button">
+        </form>
       </div>
       <div class="main-right-side">
-        <a href="#">Corporate Information</a>
-        <a href="#">Business Overview</a>
-        <a href="#">Management Policy</a>
-        <a href="#">IR Information</a>
+        <a href="#">Account</a>
+        <a href="#">Coupons</a>
+        <a href="#">Purchase history</a>
+        <a href="#">Order history</a>
+        <a href="#">My credit card</a>
+        <a href="#">Withdrawal from membership</a>
       </div>
     </div>
   </section>
